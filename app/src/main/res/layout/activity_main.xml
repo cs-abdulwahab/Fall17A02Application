@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	tools:context="com.example.abdul_wahab.fall17a02application.MainActivity"
+	>
+	
+	<fragment
+		android:id="@+id/contactfrag"
+		android:layout_width="match_parent"
+		android:layout_height="250dp"
+		android:name="com.example.abdul_wahab.fall17a02application.fragments.ContactListFragment"
+		tools:layout="@layout/fragment_contact_list"
+		/>
+	
+</RelativeLayout>
